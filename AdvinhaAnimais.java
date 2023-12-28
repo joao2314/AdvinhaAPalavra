@@ -22,7 +22,6 @@ public class AdvinhaAnimais {
             "Iguana", "Quati", "Abutre", "Morcego", "Hiena", "Salamandra"
         };
         
-
         int indiceAleatorio = new Random().nextInt(nomesDeAnimais.length);
         String escolhido = (nomesDeAnimais[indiceAleatorio]);
         
