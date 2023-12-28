@@ -21,7 +21,6 @@ public class AdvinhaAlimentos {
             "Amendoim", "Ameixa", "Damasco", "Mel", "Iogurte"
         };
         
-
         int indiceAleatorio = new Random().nextInt(nomesDeAlimentos.length);
         String escolhido = (nomesDeAlimentos[indiceAleatorio]);
         
