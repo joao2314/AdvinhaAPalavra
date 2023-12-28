@@ -9,11 +9,23 @@ public class AdvinhaObjetos {
 
         int pontuacao = 0;
 
-
         String[] nomesDeObjetos = {
             "Cadeira", "Mesa", "Laptop", "Caneta", "Livro",
-            "Telefone", "Relógio", "Carro", "Bicicleta", "Óculos",
-            "Peneira", "Capinha", "Ventilador", "Liquidificador"
+            "Telefone", "Relogio", "Carro", "Carrinho", "Bicicleta",
+            "Peneira", "Capinha", "Ventilador", "Liquidificador", 
+            "Pano", "Papel", "Raquete", "Ralador", "Pá", "Caixa",
+            "Papelao", "Radar", "Ralo", "Vaso", "Casa", "Maca",
+            "Maquete", "Madeira", "Peres", "Canoa", "Camisa", "Talher",
+            "Prato", "Mamadeira", "Xadrez", "Xicara", "Xale", "Zulueta",
+            "Ziper", "Guarda-Chuva", "Garfo", "Guitarra", "Grelha",
+            "Geladeira", "Micro-Ondas", "Giz", "Garrafa", "Gaiola",
+            "Hidrante", "Helicoptero", "Helice", "Harpa", "Holograma",
+            "Fogão", "Faca", "Frigideira", "Frasco", "Forno", "Foguete",
+            "Fone", "Sofa", "Skate", "Sexofone", "Sapato", "Secador",
+            "Saco", "Quadro", "Quebra-Cabeça", "Quadriciclo", "Cinto",
+            "Chapeu", "Cofre", "Cortina", "Calendario", "Chave", "Camera",
+            "Cama","Computador", "Copo", "Colher", "Ouro", "Ferro", "Cobre",
+            "Diamante", "Dado", "Diario", "Dardo", "Detergente", "Damas"
         };
 
         int indiceAleatorio = new Random().nextInt(nomesDeObjetos.length);
