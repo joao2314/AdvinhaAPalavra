@@ -12,8 +12,15 @@ public class AdvinhaAlimentos {
         String[] nomesDeAlimentos = {
             "Maça", "Banana", "Arroz", "Feijao", "Cenoura",
             "Brocolis", "Peixe", "Frango", "Pizza", "Sorvete",
-            "Pera", "Abobora", "Abobrinha"
+            "Pera", "Abobora", "Abobrinha", "Peru", "Beringela",
+            "Melancia", "Morango", "Tomate", "Batata", "Brócolis",
+            "Chocolate", "Pêssego", "Melão", "Laranja", "Uva",
+            "Cereja", "Abacaxi", "Espinafre", "Alface", "Cebola",
+            "Alho", "Milho", "Kiwi", "Pimentão", "Pão",
+            "Queijo", "Presunto", "Salada", "Manga", "Coco",
+            "Amendoim", "Ameixa", "Damasco", "Mel", "Iogurte"
         };
+        
 
         int indiceAleatorio = new Random().nextInt(nomesDeAlimentos.length);
         String escolhido = (nomesDeAlimentos[indiceAleatorio]);
