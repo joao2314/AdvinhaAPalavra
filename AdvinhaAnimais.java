@@ -13,9 +13,15 @@ public class AdvinhaAnimais {
             "Leao", "Elefante", "Girafa", "Tigre", "Macaco",
             "Pinguim", "Canguru", "Golfinho", "Orangotango", "Panda",
             "Jacare", "Tubarao", "Borboleta", "Gato", "Cachorro",
-            "Cavalo", "Coala", "Raposa", "Coruja", "Zebra", "Camelo"
+            "Cavalo", "Coala", "Raposa", "Coruja", "Zebra", "Camelo",
+            "Tatu", "Tartaruga", "Rato", "Pato", "Onça", "Ovelha",
+            "Paca", "Guepardo", "Hipopótamo", "Avestruz", "Alce", "Aranha",
+            "Pangolim", "Suricata", "Texugo", "Foca", "Panda Vermelho",
+            "Arara", "Cisne", "Peixe-palhaço", "Gorila", "Lobo", "Vaca",
+            "Cobra", "Porco-espinho", "Caracol", "Elefante-marinho", "Papagaio",
+            "Iguana", "Quati", "Abutre", "Morcego", "Hiena", "Salamandra"
         };
-
+        
 
         int indiceAleatorio = new Random().nextInt(nomesDeAnimais.length);
         String escolhido = (nomesDeAnimais[indiceAleatorio]);
